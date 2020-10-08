@@ -1,7 +1,6 @@
 name: registry-proxy
-home: https://github.com/deisthree/registry-proxy
+home: https://github.com/teamhephy/registry-proxy
 version: <Will be populated by the ci before publishing the chart>
-description: Deis Workflow Registry Proxy.
+description: Hephy Workflow Registry Proxy.
 maintainers:
-  - name: Deis Team
-    email: engineering@deis.com
+- email: team@teamhephy.com
