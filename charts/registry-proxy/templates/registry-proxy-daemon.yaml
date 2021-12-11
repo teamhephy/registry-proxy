@@ -23,6 +23,10 @@ spec:
         heritage: deis
         app: deis-registry-proxy
     spec:
+{{- with .Values.global.affinity }}
+      affinity:
+{{ toYaml . | indent 8 }}
+{{- end }}
 {{- if (.Values.global.use_cni) }}
       hostNetwork: true
 {{- end}}
