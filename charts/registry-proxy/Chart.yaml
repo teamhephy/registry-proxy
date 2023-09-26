@@ -1,6 +1,8 @@
+apiVersion: v2
 name: registry-proxy
 home: https://github.com/teamhephy/registry-proxy
-version: 1.5.2
+version: 1.5.3
 description: Hephy Workflow Registry Proxy.
 maintainers:
-- email: team@teamhephy.com
+- name: Team Hephy
+  email: team@teamhephy.com
